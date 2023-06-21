@@ -113,4 +113,7 @@ document.querySelectorAll('.btn.btn-sauce').addEventListener('click', function (
   renderEverything();
 });
 // Iteration 2: Add click event listener on `<button class="btn btn-crust">`
-``
+document.querySelectorAll('.btn.btn-crust').addEventListener('click', function () {
+  state.glutenFreeCrust = !state.glutenFreeCrust;
+  renderEverything();
+});``
